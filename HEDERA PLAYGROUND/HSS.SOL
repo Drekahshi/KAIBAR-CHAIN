@@ -1,0 +1,48 @@
+// SPDX-License-Identifier: Apache-2.0
+pragma solidity >=0.5.0 <0.9.0;
+pragma experimental ABIEncoderV2;
+
+import "hedera-schedule-service/HederaScheduleService.sol";
+import "hedera-schedule-service/IHRC1215ScheduleFacade.sol";
+
+contract ScheduleServiceContract is HederaScheduleService {
+    error FailToSchedule();
+
+    event ScheduleCreated(address);
+
+    function scheduleCallExample(address _to, uint256 _expiry, uint256 _gasLimit, uint64 _value, bytes memory _calldata)
+    external returns (int64 responseCode, address scheduleAddress) {
+        (responseCode, scheduleAddress) = scheduleCall(
+            _to,
+            _expiry > 0 ? _expiry : block.timestamp + 5,
+            _gasLimit,
+            _value,
+            _calldata
+        );
+
+        if (responseCode != HederaResponseCodes.SUCCESS) {
+            revert FailToSchedule();
+        }
+
+        emit ScheduleCreated(scheduleAddress);
+    }
+
+    function scheduleCallWithPayerExample(address _to, address _payer, uint256 _expiry, uint256 _gasLimit, uint64 _value, bytes memory _calldata)
+    external returns (int64 responseCode, address scheduleAddress) {
+        (responseCode, scheduleAddress) = scheduleCallWithPayer(
+            _to,
+            _payer,
+            _expiry > 0 ? _expiry : block.timestamp + 5,
+            _gasLimit,
+            _value,
+            _calldata
+        );
+
+        if (responseCode != HederaResponseCodes.SUCCESS) {
+            revert FailToSchedule();
+        }
+
+        emit ScheduleCreated(scheduleAddress);
+    }
+
+}
