@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDEs and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+storage/logs/*
+
+# Gemini Brain memory store
+.gemini/
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production

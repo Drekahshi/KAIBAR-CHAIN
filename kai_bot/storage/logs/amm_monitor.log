@@ -1,0 +1,56 @@
+2026-03-16 10:29:15,093 [ERROR] 
+2026-03-17 09:28:21,002 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-17 09:44:51,149 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-17 13:25:44,308 [ERROR] 
+2026-03-17 13:26:31,132 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 13:45:27,813 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-17 16:30:10,849 [ERROR] 
+2026-03-17 16:30:17,223 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 16:31:17,709 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:32:49,790 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:33:41,800 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:34:37,602 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:36:28,045 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:36:51,974 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:37:15,575 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-17 16:38:01,911 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-17 16:42:28,756 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:51:56,910 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:52:16,345 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:52:52,269 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:53:35,561 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 16:54:11,167 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:10:12,303 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:35:48,320 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:36:31,373 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:37:01,111 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:37:57,634 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:42:38,866 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 17:43:20,537 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-17 17:44:31,797 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 17:46:31,048 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 17:46:58,866 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 17:49:12,975 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 17:50:44,941 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-17 17:51:35,172 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-19 19:04:31,608 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-19 19:04:44,758 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-19 19:11:04,990 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-19 19:11:31,153 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-19 19:16:16,693 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-19 19:16:36,241 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-19 19:17:03,361 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-19 19:34:19,658 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-19 19:35:04,910 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-19 19:35:20,545 [INFO] KAI AMM Monitor initialised with 8 pools.
+2026-03-20 11:07:17,134 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 11:07:38,898 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 11:09:11,806 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 11:10:31,123 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 12:19:36,277 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 13:10:45,346 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 13:23:29,729 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 13:26:28,926 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 13:26:47,285 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 13:26:50,005 [INFO] Hedera Agent initialized with local Ollama.
+2026-03-20 13:27:06,682 [INFO] HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"

@@ -1,0 +1,11 @@
+{
+  "name": "kai_bot",
+  "version": "1.0.0",
+  "description": "KAI Ecosystem Bot - Antigravity IDE",
+  "main": "bot.py",
+  "scripts": {
+    "start": "python bot.py",
+    "test_hedera": "python test_hedera.py",
+    "test_agent": "python test_agent.py"
+  }
+}

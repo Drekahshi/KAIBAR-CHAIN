@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "kai-bot"
+version = "1.0.0"
+description = "KAI Ecosystem Operations Bot — Hedera Hashgraph CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "KAI Chain", email = "team@kaichain.io" }
+]
+keywords = ["hedera", "defi", "blockchain", "cli", "kai"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+ai = [
+  "hedera-agent-kit",
+]
+qr = [
+  "qrcode[pil]>=7.4",
+]
+all = [
+  "hedera-agent-kit",
+  "qrcode[pil]>=7.4",
+]
+
+[project.scripts]
+kai = "kai_bot:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kai_bot*", "modules*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.txt"]
